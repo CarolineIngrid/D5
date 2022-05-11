@@ -1,0 +1,39 @@
+/* ------reset----- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #d9dcfd;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.base-qr{
+    display: flex;
+    width: 290px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5%; 
+    justify-content: center;
+    
+}
+
+.base-qr img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    margin-bottom: 55%;
+    border-radius: 5%;
+}
